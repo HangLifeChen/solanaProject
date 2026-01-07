@@ -1,0 +1,19 @@
+version: 1.0
+mode: pre
+
+jwt_key: my_secret_key
+
+database:
+  name: nebulai_lab
+  user: JasonMysql
+  password: l0Wj)W1eqQ-!Vw>m84X#[VcS?m9Z
+  ip: database-1.cmlmem88yaha.us-east-1.rds.amazonaws.com:13306
+
+
+redis:
+  ip: 54.159.97.9:16379
+  password: ghmPEc0yJU06peF6
+  db: 1
+  enable_tls: false
+
+privatekey: 53gy2Fh4CGkEYNzsvYk5pyTzRRCinVnP7LDrdDU9yYFV9AiBoD8NWVSCsJRsyW5DANuSSvUaucXQfG7p9LmrHuyy

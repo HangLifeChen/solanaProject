@@ -1,0 +1,31 @@
+[package]
+name = "token-factory"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "token_factory"
+
+[features]
+default = ["anchor-debug"]
+anchor-debug = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+
+
+[dependencies]
+anchor-lang = { version = "0.31.1", features = ["init-if-needed"] }
+anchor-spl = { version = "0.31.1", features = ["metadata"] }
+fixed = "1.27.0"
+solana-program = "2.3.0" # 根据你的 Solana 版本调整
+solana-instructions-sysvar = "2.2.2"
+solana-instruction = "2.3.0"
+solana-sdk-ids = "2.2.1"
+
+
+

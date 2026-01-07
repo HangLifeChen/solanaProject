@@ -1,0 +1,19 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = true
+
+[programs.devnet]
+token_factory = "3BrWQee3TC7CoG5E4DCCBVH8ZTWcebhU7rNj2xY3LDEW"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

@@ -1,0 +1,22 @@
+[package]
+name = "nft-meta-data-pointer"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "nft_meta_data_pointer"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+
+[dependencies]
+anchor-lang = "0.31.1"
+

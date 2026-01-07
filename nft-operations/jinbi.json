@@ -1,0 +1,9 @@
+{
+  "name": "jinbi Test",
+  "symbol": "GYG",
+  "description": "My test NFT",
+  "image": "https://gateway.pinata.cloud/ipfs/bafkreigjoscjh3ujgooacgzn76ppyzdyoamzcda2rioeg2xwm56cvnqebm",
+  "attributes": [
+    {"trait_type": "Background", "value": "Blue"}
+  ]
+}
